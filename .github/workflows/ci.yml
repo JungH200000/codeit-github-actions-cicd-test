@@ -17,8 +17,4 @@ jobs: # 실행할 작업(job) 정의
           distribution: 'temurin'
 
       - name: 빌드 및 테스트
-        run: ./greadlew clean build
-
-
-
-
+        run: ./gradlew clean build
